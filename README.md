@@ -80,6 +80,7 @@ A aplicação estará disponível em `http://localhost:3333`.
         "question": "What are the top 5 selling products?"
     }
     ```
+- Ou pode utilizar a extensão REST Client do VSCode com o arquivo `api.http`
 
 ## Estrutura do Projeto
 
@@ -92,8 +93,8 @@ Biblioteca responsável pela conversão de texto para SQL utilizando diferentes 
 - **providers/**: Contém a implementação dos provedores de IA.
   - **enum/**: Enumera os tipos de provedores disponíveis.
   - **implementations/**: Implementações específicas dos provedores de IA.
-    - `openai.provider.ts`: Implementação do provedor OpenAI.
-    - `text2sql.provider.ts`: Implementação do provedor Text2SQL.
+    - `openai.provider.ts`: Implementação do provedor [OpenAI](https://platform.openai.com/docs/models/gpt-3-5-turbo).
+    - `text2sql.provider.ts`: Implementação do provedor [Text2SQL](https://www.text2sql.ai/app/api).
   - **models/**: Define os modelos para os provedores.
     - `text2sql.provider.ts`: Interface para os provedores de text2sql.
   - `text2sql.provider.factory.ts`: Fábrica para criar instâncias dos provedores de text2sql.
