@@ -16,7 +16,7 @@ describe('AppController', () => {
 
   describe('root', () => {
     it('should be able health check', () => {
-      expect(appController.healthCheck()).toBe({
+      expect(appController.healthCheck()).toEqual({
         status: 'ok',
         message: 'Service is running',
       });
