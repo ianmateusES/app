@@ -18,7 +18,7 @@ Este projeto é uma aplicação baseada em Node.js usando o framework NestJS par
 1. Clone o repositório:
 
     ```bash
-    git clone https://github.com/ianmateusES/fintechx-text2sql.git
+    git clone https://github.com/ianmateusES/laborit-fintechx-text2sql.git
     cd fintechx-text2sql
     ```
 
