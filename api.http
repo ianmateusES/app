@@ -1,0 +1,32 @@
+###
+@URL = http://localhost:3333
+
+###
+GET {{ URL }}/questions?question=Quais são os produtos mais populares entre os clientes corporativos?
+
+###
+GET {{ URL }}/questions?question=Quais são os produtos mais vendidos em termos de quantidade?
+
+###
+GET {{ URL }}/questions?question=Qual é o volume de vendas por cidade?
+
+###
+GET {{ URL }}/questions?question=Quais são os clientes que mais compraram?
+
+###
+GET {{ URL }}/questions?question=Quais são os produtos mais caros da loja?
+
+###
+GET {{ URL }}/questions?question=Quais são os fornecedores mais frequentes nos pedidos?
+
+###
+GET {{ URL }}/questions?question=Quais os melhores vendedores?
+
+###
+GET {{ URL }}/questions?question=Qual é o valor total de vendas realizadas por ano?
+
+###
+GET {{ URL }}/questions?question=Qual é o valor total de vendas por categoria de produto?
+
+###
+GET {{ URL }}/questions?question=Qual o ticket médio por compra?

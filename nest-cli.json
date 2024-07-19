@@ -3,6 +3,18 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "src",
   "compilerOptions": {
-    "deleteOutDir": true
+    "deleteOutDir": true,
+    "webpack": true
+  },
+  "projects": {
+    "text2sql": {
+      "type": "library",
+      "root": "libs/text2sql",
+      "entryFile": "index",
+      "sourceRoot": "libs/text2sql/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/text2sql/tsconfig.lib.json"
+      }
+    }
   }
 }

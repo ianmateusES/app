@@ -16,6 +16,14 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app/text2sql": [
+        "libs/text2sql/src"
+      ],
+      "@app/text2sql/*": [
+        "libs/text2sql/src/*"
+      ]
+    }
   }
 }
